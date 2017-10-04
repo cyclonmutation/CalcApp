@@ -21,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
         //画面遷移
         Log.d("CALC-APP", "画面遷移");
         Intent intent = getIntent();
-        float value1 = (float) intent.getFloatExtra("VALUE1", 0);
+        double value1 = (double) intent.getDoubleExtra("VALUE1", 0);
 
         //textViewに結果を表示する
         Log.d("CALC-APP", "結果表示");
